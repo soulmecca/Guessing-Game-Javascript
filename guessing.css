@@ -1,0 +1,24 @@
+.circle {
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	border: 3px dotted black;
+	border-radius: 50%;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	 background-color: #aaa;
+}
+
+#input {
+  text-align: center;
+    
+}
+   
+table, td {
+	
+	margin: auto;
+	font-size: 20px;
+
+	;
+}
