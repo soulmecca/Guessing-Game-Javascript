@@ -6,7 +6,7 @@
  cnt=1;// counter
 
 
- function init(){ //난수를 생성하는 함수
+ function init(){ 
   ranNo = Math.floor((Math.random()*100) + 1);
   document.getElementById("message").innerHTML= "Let's have some fun!";
   document.getElementById("message").style.color = "green"; 
