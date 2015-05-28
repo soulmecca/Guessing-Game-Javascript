@@ -1,24 +1,91 @@
+#big {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 420px;
+	height: 450px;
+	border: 3px solid rgba(0,0,0,0.2);
+  	box-shadow: 0px 0px 0px 0px #d7d7d7,0px 1px 0px 0px rgba(255,255,255,0.4),0px 0px 2px 0px rgba(0,0,0,0.1),inset 0px 2px 0px 0px rgba(255,255,255,0.2);
+} 
+
 .circle {
 	margin: auto;
-	width: 200px;
+	width: 350px;
 	height: 200px;
-	border: 3px dotted black;
-	border-radius: 50%;
-	font-size: 20px;
+font-size: 20px;
 	text-align: center;
-	font-weight: bold;
-	 background-color: #aaa;
+	color: #4A4A4A;
 }
 
 #input {
   text-align: center;
-    
 }
    
 table, td {
-	
 	margin: auto;
 	font-size: 20px;
-
-	;
 }
+
+#firstText {
+	text-align: center;  
+	color: #4A4A4A;
+}
+
+
+#col1, #col10 {
+	background-color: #19328d;
+}
+
+#col2, #col9 {
+	background-color: #2cadfb;
+}
+
+#col3, #col8 {
+	background-color:#f98181;
+}
+
+#col4, #col7 {
+	background-color: #f65538;
+}
+
+#col5, #col6 {
+	background-color: red;
+}
+
+.button {
+  width: 90px; 
+  height: 90px; 
+  background: #eaeaea;
+  border: 3px solid rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 0px 0px #d7d7d7,0px 1px 0px 0px rgba(255,255,255,0.4),0px 0px 2px 0px rgba(0,0,0,0.1),inset 0px 2px 0px 0px rgba(255,255,255,0.2);
+  border-radius: 100%;
+  font-size: 16px;
+  font-family: Arial;
+}
+
+.main {
+	border-collapse: separate;
+    border-spacing: 10px;
+}
+
+#overlay {
+	background:rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	display: none;
+	text-align: center;
+}
+
+#overlay img{
+	margin-top: 220px;
+}
+
+
+
+
+
+
+
